@@ -262,7 +262,56 @@ section {
 .project-card h3 {
     font-size: 1.6rem;
 }
+/* ================= FOOTER ================= */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 15%;
+    background-color: var(--second-bg);
+    border-top: 2px solid rgba(0, 255, 255, 0.1);
+}
 
+.footer-text p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background: var(--main-color);
+    border-radius: 0.8rem;
+    transition: 0.3s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 15px var(--main-color);
+    transform: translateY(-3px);
+}
+
+.footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
+
+/* Penyesuaian Media Queries untuk Footer */
+@media (max-width: 991px) {
+    .footer {
+        padding: 2rem 5%;
+    }
+}
+
+@media (max-width: 617px) {
+    .footer {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        text-align: center;
+    }
+}
 /* ================= MEDIA QUERIES ================= */
 
 /* 1. Laptop / Desktop Kecil (<= 1285px) */
