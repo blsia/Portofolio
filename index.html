@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portofolio</title>
+    <title>Portofolio - Muhammad Al Fatih</title>
 </head>
 <body>
     <header class="header">
-        <a href=#home class="logo">
+        <a href="#home" class="logo">
             Muhammad <span>Al Fatih</span>
         </a>
 
@@ -17,41 +17,82 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#skills">Services</a>
-            <a href="#services">Project</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
 
-        <button class="gradient-btn">
+        <a href="#contact" class="gradient-btn">
             Contact Me
-        </button>
-    
+        </a>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
-                <h1>Hallo, saya <span>Muhammad Al Fatih</span></h1>
-                <h3>Ingin jadi Fullstack Developer</h3>
-                <p></p>
+            <h1>Halo, saya <span>Muhammad Al Fatih</span></h1>
+            <h3>Ingin Jadi Fullstack Developer</h3>
+            <p>Saya bersemangat untuk mempelajari teknologi web terkini dengan target ReactJS dan Next.js</p>
 
-                <div class="social-icons">
-                    <a href="#">
-                        <i class="bx bxl-github"></i>
-                    </a>
+            <div class="social-icons">
+                <a href="https://github.com/blsia" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </div>
 
-                    <a href="#">
-                        <i class="bx bxl-instagram"></i>
-                    </a>
-                </div>
-
-                <div class="btn-group">
-                    <a href="#" class="btn">Hire Me</a>
-                    <a href="#" class="btn">Contact</a>
-                </div>
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
         </div>
 
         <div class="home-img">
-            <img src="profile.jpg" alt="Profile Image">
+            <img src="profile.jpg" alt="Foto Profil Muhammad Al Fatih">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+            <div class="about-img">
+                <img src="profile.jpg" alt="Foto Profil Muhammad Al Fatih">
+            </div>
+
+        <div class="about-content">
+            <h2>Tentang <span>Saya</span></h2>
+
+                <p>Halo, saya Muhammad Al Fatih, Berasal dari Bogor Lahir 06 September 2010 Hobi bermain game dan mengulik dunia programming seperti data engineering dan web development </p>
+        </div>
+    </section>
+
+    <section class="project" id="projects">
+        <h2 class="heading">Proyek <span>Saya</span></h2>
+
+        <div class="project-box">
+            <div class="project-card">
+            <img src="Projek2.png" alt="Proyek 2">
+            
+            <h3>Proyek Weather app</h3>
+
+            <p> aplikasi cuaca sederhana yang menampilkan kelembapan,suhu, dll. dengan mengetik nama kota</p>
+        
+            <a href="https://weather-appbykota.netlify.app/" class="btn" target="_blank" rel="noopener noreferrer">Lihat Proyek</a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <div class="project-card">
+            <img src="Proyek1.png" alt="Proyek 1">
+            
+            <h3>Customer Relationship Management </h3>
+
+            <p>web untuk mengelola hubungan dengan pelanggan dengan fitur registrasi, login, dan manajemen pelanggan</p>
+        
+            <a href="https://vercel.com/manusami6765-3950s-projects/crm-django/FNiP39HMuPLhvFHPP5Djfyo9W3Sv" class="btn" target="_blank" rel="noopener noreferrer">Lihat Proyek</a>
+            </div>
+        </div>
+
         </div>
     </section>
 </body>
